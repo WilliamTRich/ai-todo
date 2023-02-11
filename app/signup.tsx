@@ -7,6 +7,10 @@ export default function Signup() {
                 <input type="text" name="email" className="shadow appearance-none border rounded text-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-3/5" placeholder="someone@gmail.com" />
             </div>
             <div>
+                <label htmlFor="username" className="block text-gray-700 text-lg font-bold mb-2">Username</label>
+                <input type="text" name="username" className="shadow appearance-none border rounded text-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-3/5" placeholder="Username" />
+            </div>
+            <div>
                 <label htmlFor="password" className="block text-gray-700 text-lg font-bold mb-2">Password</label>
                 <input type="password" name="password" className="shadow appearance-none border rounded text-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-3/5" placeholder="************" />
             </div>
