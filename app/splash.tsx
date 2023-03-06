@@ -13,6 +13,7 @@ export default function Splash() {
             setCurrentForm("login");
         }
     }
+
     return (
         <main className="flex flex-col justify-center w-2/5 px-20 py-10">
             <div className="flex text-4xl leading-normal h-16 gap-3 text-green-800">
