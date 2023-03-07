@@ -33,7 +33,7 @@ export default function Signup({ changeForm }: SignupProps) {
             });
 
             if (res.ok) {
-                throw new Error("Failed to create account");
+                //Handle success
             }
 
             const data = await res.json();
