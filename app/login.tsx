@@ -1,11 +1,6 @@
-interface LoginProps {
-    changeForm: () => void;
-}
-
-export default function Login({ changeForm }: LoginProps) {
-
+export default function Login() {
     return (
-        <form className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3">
             <p className="text-gray-500">Welcome Back, please login to your account.</p>
             <div>
                 <label htmlFor="email" className="block text-gray-700 text-lg font-bold mb-2">Email</label>
@@ -22,10 +17,6 @@ export default function Login({ changeForm }: LoginProps) {
                 </div>
                 <a href="#" className="underline">Forgot Password?</a>
             </div>
-            <div className="flex gap-28">
-                <button className="text-white bg-green-600 hover:bg-green-800 font-bold py-2 px-4 w-1/5 rounded-lg">Login</button>
-                <button className="text-green-600 border-2 border-green-600 hover:bg-gray-100 font-bold py-2 px-4 w-1/5 rounded-lg" onClick={changeForm}>Sign Up</button>
-            </div>
-        </form>
+        </div>
     )
 }
