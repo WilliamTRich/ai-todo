@@ -1,3 +1,9 @@
+import NavBar from "./nav"
+
 export default function Dashboard() {
-    return <h1>Hello!</h1>
+    return (
+        <main className="flex h-screen bg-gray-50">
+            <NavBar></NavBar>
+        </main>
+    )
 };
